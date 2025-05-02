@@ -82,6 +82,17 @@ python start_server.py
 | `!newsong 歌名`    | 新增歌曲到排隊清單       |
 | `!queue`           | 顯示目前排隊歌單         |
 
+---
+Night Bot設定(可做可不做)
+
+功能<聊天室抓排隊歌單>
+
+設定Commands:
+```
+Name:自訂指令
+Response:$(urlfetch ngrok外部網址/)
+Required User-Level:Everyone
+```
 </details>
 
 
