@@ -93,6 +93,12 @@ Name:自訂指令
 Response:$(urlfetch ngrok外部網址/)
 Required User-Level:Everyone
 ```
+疑難排解
+```
+ERR_NGROK_121====請檢查目前您所用的ngrok版本
+打開ngrok.exe
+輸入ngrok update
+```
 </details>
 
 
